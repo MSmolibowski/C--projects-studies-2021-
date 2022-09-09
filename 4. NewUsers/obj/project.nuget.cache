@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "evvVPJQaOdnHOVCc5xNJy0NLsipwo8FnFZUOxaX3FbxA+/l7sug1mUxTQvSBW5QCVe6Z8FD8ERGfALL6mqsCaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\NewUsers\\NewUsers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mikol\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
