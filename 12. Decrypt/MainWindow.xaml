@@ -1,0 +1,18 @@
+﻿<Window x:Class="decrypt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:decrypt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="dane" HorizontalAlignment="Left" Margin="167,52,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="410" Height="78"/>
+        <Button x:Name="zaszyfruj" Content="Zaszyfruj" HorizontalAlignment="Left" Margin="33,150,0,0" VerticalAlignment="Top" Height="40" Width="100" Click="zaszyfruj_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="653,0,0,0" VerticalAlignment="Center" Height="40" Width="100" Click="Button_Click"/>
+        <Button x:Name="odszyfruj" Content="Odszyfruj" HorizontalAlignment="Left" Margin="33,242,0,0" VerticalAlignment="Top" Height="40" Width="100" Click="odszyfruj_Click"/>
+        <TextBox x:Name="haslo" HorizontalAlignment="Left" Margin="256,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="232" Height="38"/>
+        <TextBox x:Name="wynik" HorizontalAlignment="Left" Margin="167,317,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="410" Height="78"/>
+
+    </Grid>
+</Window>
