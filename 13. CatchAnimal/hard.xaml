@@ -1,0 +1,16 @@
+﻿<Window x:Class="CatchAnimal.hard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CatchAnimal"
+        mc:Ignorable="d"
+        Title="hard" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="congrat" Content="Label" HorizontalAlignment="Left" Margin="57,84,0,0" VerticalAlignment="Top" Height="68" Width="312"/>
+        <Image x:Name="cought" HorizontalAlignment="Left" Height="306" Margin="400,52,0,0" VerticalAlignment="Top" Width="267"/>
+        <Button x:Name="again" Content="Again" HorizontalAlignment="Left" Margin="57,296,0,0" VerticalAlignment="Top" Height="36" Width="100" Click="again_Click"/>
+        <Button x:Name="exit" Content="Exit" HorizontalAlignment="Left" Margin="57,356,0,0" VerticalAlignment="Top" Height="36" Width="100" Click="exit_Click"/>
+
+    </Grid>
+</Window>

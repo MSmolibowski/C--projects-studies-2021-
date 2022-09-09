@@ -1,0 +1,25 @@
+﻿<Window x:Class="CatchAnimal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CatchAnimal"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="328">
+    <Grid Margin="24,0,67,0">
+        <ComboBox x:Name="zwierze" HorizontalAlignment="Left" Margin="66,81,0,0" VerticalAlignment="Top" Width="133" Height="44">
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="Kot"/>
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="Ryba"/>
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="Mysz"/>
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="Krokodyl"/>
+        </ComboBox>
+
+        <ComboBox x:Name="trudnosc" HorizontalAlignment="Left" Margin="66,187,0,0" VerticalAlignment="Top" Width="133" Height="44">
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="Łatwy"/>
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="Normalny"/>
+            <ComboBoxItem HorizontalContentAlignment="Center" Content="Trudny"/>
+
+        </ComboBox>
+        <Button x:Name="start" Content="Start" Margin="66,287,0,0" VerticalAlignment="Top" Height="44" Click="Button_Click" HorizontalAlignment="Left" Width="133"/>
+    </Grid>
+</Window>
