@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLicencjat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Licencjat uczelnia="UMP" kierunek="Biotechnologia" studia_zakres="medycyna" profil="XYZ" forma="XYZ" poziom="XYZ" imie_nazwisko="s1" nr_albumu="1234" tytul_pracy="ZZYZZ" tytul_ang="YYZYY" zakres_pracy="--------X-------" termin_oddania="------Y---------" promotor="VXZ" jednostka_organizacyjna="JHG" />
+  <Licencjat uczelnia="UMP" kierunek="Biotechnologia" studia_zakres="medycyna" profil="XYZ" forma="XYZ" poziom="XYZ" imie_nazwisko="s1" nr_albumu="1234" tytul_pracy="ZZYZZ" tytul_ang="YYZYY" zakres_pracy="--------X-------" termin_oddania="------Y---------" promotor="VXZ" jednostka_organizacyjna="JHG" />
+</ArrayOfLicencjat>

@@ -1,0 +1,53 @@
+﻿<Window x:Class="KartaPracyDyplomowej.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KartaPracyDyplomowej"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Label Content="Uczelnia:" HorizontalAlignment="Left" Margin="83,118,0,0" VerticalAlignment="Top" Height="24" Width="56"/>
+        <Label Content="Kierunek:" HorizontalAlignment="Left" Margin="83,160,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Studia w zakresie:" HorizontalAlignment="Left" Margin="40,204,0,0" VerticalAlignment="Top"/>
+        <Label Content="Profil studiów:" HorizontalAlignment="Left" Margin="374,116,0,0" VerticalAlignment="Top"/>
+        <Label Content="Forma studiów:" HorizontalAlignment="Left" Margin="368,160,0,0" VerticalAlignment="Top"/>
+        <Label Content="Poziom studiów:" HorizontalAlignment="Left" Margin="362,204,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_kierunek" HorizontalAlignment="Left" Margin="143,166,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="205" />
+        <TextBox x:Name="tbx_uczelnia" HorizontalAlignment="Left" Margin="140,124,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="208"/>
+        <TextBox x:Name="tbx_studiazakres" HorizontalAlignment="Left" Margin="148,208,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="tbx_poziom" HorizontalAlignment="Left" Margin="464,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208"/>
+        <TextBox x:Name="tbx_forma" HorizontalAlignment="Left" Margin="464,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="22"/>
+        <TextBox x:Name="tbx_profil" HorizontalAlignment="Left" Margin="464,121,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="208"/>
+        <Label x:Name="label_zobowiazanie" Content="" HorizontalAlignment="Left" Margin="42,244,0,0" VerticalAlignment="Top" Height="140" Width="719" FontSize="10"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="55,410,0,0" VerticalAlignment="Top" Width="103" Background="#FF0B0A0A"/>
+        <Label x:Name="label_imie" Content="Imie i nazwisko" HorizontalAlignment="Left" Margin="155,410,0,0" VerticalAlignment="Top" Width="208" Background="#FF909090"/>
+        <Label x:Name="alnum_label" Content="Nr albumu" HorizontalAlignment="Left" Margin="363,410,0,0" VerticalAlignment="Top" Width="147" Background="#FF909090"/>
+        <Label x:Name="label_datapodpis" Content="Data i podpis" HorizontalAlignment="Left" Margin="510,410,0,0" VerticalAlignment="Top" Width="177" Background="#FF909090"/>
+        <Label Content="Student:" HorizontalAlignment="Left" Margin="55,441,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label HorizontalAlignment="Left" Margin="55,481,0,0" VerticalAlignment="Top" Width="98" Background="#FF050505"/>
+        <Label HorizontalAlignment="Left" Margin="155,481,0,0" VerticalAlignment="Top" Width="548" Background="#FF909090"/>
+        <Label Content="Tytuł pracy:" HorizontalAlignment="Left" Margin="55,512,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Wersja angielska tytułu:" HorizontalAlignment="Left" Margin="23,538,0,0" VerticalAlignment="Top" Width="162"/>
+        <Label Content="Zakres pracy:" HorizontalAlignment="Left" Margin="55,569,0,0" VerticalAlignment="Top" Width="98" Height="52"/>
+        <Label Content="Termin oddania pracy:" HorizontalAlignment="Left" Margin="27,619,0,0" VerticalAlignment="Top" Width="130" Height="58"/>
+        <Label Content="Promotor:" HorizontalAlignment="Left" Margin="55,678,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="Jednostka organizacyjna promotora" HorizontalAlignment="Left" Margin="23,709,0,0" VerticalAlignment="Top" Width="198" Height="39"/>
+        <TextBox x:Name="tbx_tytulpracy" HorizontalAlignment="Left" Margin="155,512,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="548"/>
+        <TextBox x:Name="tbx_tytulang" HorizontalAlignment="Left" Margin="157,542,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="548"/>
+        <TextBox x:Name="tbx_zakrespracy" HorizontalAlignment="Left" Margin="155,577,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="548" Height="44"/>
+        <TextBox x:Name="tbx_terminoddania" HorizontalAlignment="Left" Margin="155,626,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="548" Height="44"/>
+        <TextBox x:Name="tbx_promotor" HorizontalAlignment="Left" Margin="157,682,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="548"/>
+        <TextBox x:Name="tbx_jednostkapromotora" HorizontalAlignment="Left" Margin="225,713,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="478"/>
+        <Label Content="Karta" HorizontalAlignment="Left" Margin="150,35,0,0" VerticalAlignment="Top" Height="23" Width="132"/>
+        <Label Content="pracy dyplomowej licencjackiej" HorizontalAlignment="Left" Margin="150,58,0,0" VerticalAlignment="Top" Height="28" Width="176"/>
+        <TextBox x:Name="tbx_imie_nazwisko" HorizontalAlignment="Left" Margin="163,445,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="tbx_nr_albumu" HorizontalAlignment="Left" Margin="364,445,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Button x:Name="save" Content="X" HorizontalAlignment="Left" Margin="703,38,0,0" VerticalAlignment="Top" Height="38" Width="36" Click="save_Click" Background="#FFE87979"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="40,90,0,0" VerticalAlignment="Top" Width="103" Background="#FF0B0A0A" Height="10"/>
+        <Label x:Name="label_imie_Copy" HorizontalAlignment="Left" Margin="140,90,0,0" VerticalAlignment="Top" Width="208" Background="#FF909090"/>
+        <Label x:Name="alnum_label_Copy" HorizontalAlignment="Left" Margin="368,90,0,0" VerticalAlignment="Top" Width="97" Background="#FF060606"/>
+        <Label x:Name="label_datapodpis_Copy" HorizontalAlignment="Left" Margin="464,90,0,0" VerticalAlignment="Top" Width="208" Background="#FF909090"/>
+        <Image x:Name="PPlogo" HorizontalAlignment="Left" Height="72" Margin="27,10,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>
