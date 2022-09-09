@@ -1,0 +1,23 @@
+﻿<Window x:Class="seq_finder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:seq_finder"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="wybierze_seq" Content="Wybierz sekwencje" HorizontalAlignment="Left" Margin="44,65,0,0" VerticalAlignment="Top" Height="44" Width="122" Click="wybierze_seq_Click"/>
+        <Button x:Name="znajdz_wzor" Content="Znajdź wzorce" HorizontalAlignment="Left" Margin="44,173,0,0" VerticalAlignment="Top" Height="44" Width="113" Click="znajdz_wzor_Click"/>
+        <ComboBox x:Name="kmer_chose" HorizontalAlignment="Left" Margin="44,295,0,0" VerticalAlignment="Top" Width="149" Height="34" SelectionChanged="kmer_chose_SelectionChanged"/>
+
+        <RichTextBox x:Name="seq_view" Margin="302,53,53,53">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>
