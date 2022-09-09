@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User name="Jacek" count="15" id="2" />
+  <User name="Jacek" count="15" id="9" />
+  <User name="Krystian" count="8" id="4" />
+  <User name="Krystian" count="66" id="7" />
+  <User name="Maciej" count="44" id="6" />
+  <User name="Maciej" count="45" id="5" />
+  <User name="Maja" count="41" id="3" />
+  <User name="Marcysia" count="99" id="10" />
+  <User name="Michal" count="12" id="8" />
+  <User name="Michal" count="13" id="1" />
+  <User name="Michal" count="66" id="2" />
+</ArrayOfUser>
