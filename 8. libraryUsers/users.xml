@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User imie="M1" nazwisko="M1" id_u="1" />
+  <User imie="M2" nazwisko="M2" id_u="2" />
+  <User imie="M3" nazwisko="M3" id_u="3" />
+</ArrayOfUser>

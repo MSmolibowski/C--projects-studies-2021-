@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book tytul="A1" autor="A1" id_b="3" wypozyczona="--" />
+  <Book tytul="A2" autor="A2" id_b="2" wypozyczona="--" />
+  <Book tytul="A3" autor="A3" id_b="1" wypozyczona="--" />
+  <Book tytul="A4" autor="A4" id_b="4" wypozyczona="--" />
+</ArrayOfBook>

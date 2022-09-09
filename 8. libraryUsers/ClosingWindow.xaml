@@ -1,0 +1,15 @@
+﻿<Window x:Class="libraryUsers.ClosingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:libraryUsers"
+        mc:Ignorable="d"
+        Title="ClosingWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="tak" Content="Tak" HorizontalAlignment="Left" Margin="195,268,0,0" VerticalAlignment="Top" Height="39" Width="78" FontSize="22" Click="tak_Click"/>
+        <Button x:Name="nie" Content="Nie" HorizontalAlignment="Left" Margin="443,268,0,0" VerticalAlignment="Top" Height="39" Width="78" FontSize="22" Click="nie_Click"/>
+        <Label Content="Czy chcesz wyjsc z programu?" HorizontalAlignment="Left" Margin="213,136,0,0" VerticalAlignment="Top" Height="56" Width="308" FontSize="22"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTaken xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Taken taken_user="1" taken_book="1" />
+  <Taken taken_user="2" taken_book="2" />
+  <Taken taken_user="3" taken_book="4" />
+</ArrayOfTaken>
