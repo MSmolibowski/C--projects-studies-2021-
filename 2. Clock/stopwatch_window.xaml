@@ -1,0 +1,15 @@
+﻿<Window x:Class="Clock.stopwatch_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Clock"
+        mc:Ignorable="d"
+        Title="stopwatch_window" Height="450" Width="800">
+    <Grid>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="130,308,0,0" VerticalAlignment="Top" Height="59" Width="152" Click="Start" FontSize="22"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="376,308,0,0" VerticalAlignment="Top" Height="59" Width="152" Click="Stop" FontSize="22"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="610,308,0,0" VerticalAlignment="Top" FontSize="22" Height="59" Width="152" Click="Clear"/>
+        <TextBlock Name ="startTimer"  HorizontalAlignment="Center" Margin="0,178,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
