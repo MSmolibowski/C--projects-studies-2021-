@@ -1,0 +1,28 @@
+﻿<Window x:Class="Cars_new.auta_marka"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cars_new"
+        mc:Ignorable="d"
+        Title="auta_marka" Height="450" Width="800">
+    <Grid>
+
+        <Label Content="Marka" HorizontalAlignment="Left" Margin="75,26,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <RadioButton x:Name="Opel" Content="Opel" HorizontalAlignment="Left" Margin="75,177,0,0" VerticalAlignment="Top" Checked="Opel_Checked" FontSize="22" Width="86" />
+        <RadioButton x:Name="Fiat" Content="Fiat" HorizontalAlignment="Left" Margin="78,130,0,0" VerticalAlignment="Top" Checked="Fiat_Checked" FontSize="22" Width="80"/>
+        <RadioButton x:Name="Skoda" Content="Skoda" HorizontalAlignment="Left" Margin="75,83,0,0" VerticalAlignment="Top" Checked="Skoda_Checked" FontSize="22"/>
+        <Label x:Name="lbl_pods_marka" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Margin="58,354,0,0" FontSize="22"/>
+        <Label Content="Wyposażenie" HorizontalAlignment="Left" Margin="225,26,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <CheckBox x:Name="Klimatyzacja" Content="Klimatyzacja" HorizontalAlignment="Left" Margin="225,83,0,0" VerticalAlignment="Top" FontSize="22" Checked="Klimatyzacja_Checked" Unchecked="Klima_Unchecked" />
+        <CheckBox x:Name="Skrzynia" Content="Automatyczna skrzynia biegów" HorizontalAlignment="Left" Margin="224,130,0,0" VerticalAlignment="Top" FontSize="22" Height="36" Width="394" Unchecked="skrzynia_unchecked" Checked="skrzynia_checked" />
+        <CheckBox x:Name="Poduszki" Content="Poduszki powietrzne" HorizontalAlignment="Center" Margin="0,177,0,0" VerticalAlignment="Top" FontSize="22" Width="352" Checked="poduszki_checked" Unchecked="poduszki_unchecked"/>
+        <Button x:Name="marka_sumuj" Content="PODSUMOWANIE" HorizontalAlignment="Left" Margin="58,302,0,0" VerticalAlignment="Top" FontSize="22" Height="52" Width="212" Click="marka_sumuj_Click"/>
+        <Label Content="Podaj kwote polisy" HorizontalAlignment="Left" Margin="542,253,0,0" VerticalAlignment="Top" FontSize="22" Width="207"/>
+        <TextBox x:Name="polisa_textbox" HorizontalAlignment="Left" Margin="542,302,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" FontSize="22"/>
+        <Button x:Name="powrot" Content="Powrót" HorizontalAlignment="Left" Margin="656,29,0,0" VerticalAlignment="Top" FontSize="22" Width="93" Click="powrot_Click"/>
+   
+
+
+    </Grid>
+</Window>

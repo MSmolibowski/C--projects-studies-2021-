@@ -1,0 +1,20 @@
+﻿<Window x:Class="Cars_new.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cars_new"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Marka" Content="Marka" HorizontalAlignment="Left" Margin="130,69,0,0" VerticalAlignment="Top" FontSize="22" Click="Marka_Click"/>
+        <Button x:Name="Silnik" Content="Silnik" HorizontalAlignment="Left" Margin="629,69,0,0" VerticalAlignment="Top" FontSize="22" Click="Silnik_Click"/>
+        <Label x:Name="Podsumowanie_Auto" Content="0" HorizontalAlignment="Left" Margin="136,312,0,0" VerticalAlignment="Top" FontSize="22" />
+        <Button Content="PODSUMOWANIE" HorizontalAlignment="Left" Margin="48,261,0,0" VerticalAlignment="Top" Height="46" Width="198" FontSize="22" Click="Button_Click"/>
+        <Label Content="Cena Marka + Wyposarzenie + Polisa" HorizontalAlignment="Left" Margin="10,107,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="lbl_suma_main_marka" Content="0" HorizontalAlignment="Left" Margin="117,146,0,0" VerticalAlignment="Top" Width="100" FontSize="18"/>
+        <Label Content="Cena Typ i Pojemność Silnika" HorizontalAlignment="Left" Margin="535,107,0,0" VerticalAlignment="Top" Width="244" FontSize="18" />
+        <Label x:Name="lbl_suma_main_poj" Content="0" HorizontalAlignment="Left" Margin="629,146,0,0" VerticalAlignment="Top" Width="115" FontSize="18"/>
+
+    </Grid>
+</Window>

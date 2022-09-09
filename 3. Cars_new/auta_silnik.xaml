@@ -1,0 +1,27 @@
+﻿<Window x:Class="Cars_new.auta_silnik"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cars_new"
+        mc:Ignorable="d"
+        Title="auta_silnik" Height="450" Width="800">
+    <Grid>
+        <Label Content="Marka" HorizontalAlignment="Left" Margin="75,26,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <RadioButton x:Name="Benzyna" Content="Benzyna" HorizontalAlignment="Left" Margin="75,177,0,0" VerticalAlignment="Top" Checked="Benzyna_Checked" FontSize="22" Width="104" />
+        <RadioButton x:Name="Diesel" Content="Diesel" HorizontalAlignment="Left" Margin="78,130,0,0" VerticalAlignment="Top" Checked="Diesel_Checked" FontSize="22" Width="80"/>
+        <RadioButton x:Name="Gaz" Content="Gaz" HorizontalAlignment="Left" Margin="75,83,0,0" VerticalAlignment="Top" Checked="Gaz_Checked" FontSize="22"/>
+        <RadioButton x:Name="Hybryda" Content="Hybryda" HorizontalAlignment="Left" Margin="78,217,0,0" VerticalAlignment="Top" Checked="Hybryda_Checked" FontSize="22"/>
+        <Label Content="Pojemność silnika" HorizontalAlignment="Left" Margin="304,72,0,0" VerticalAlignment="Top" FontSize="22" Width="202"/>
+        <ComboBox x:Name ="poj_silnik" HorizontalAlignment="Center" Margin="0,122,0,0" VerticalAlignment="Top" Width="212" SelectionChanged="ComboBox_SelectionChanged" Height="26">
+            <ComboBoxItem Content="1.4"></ComboBoxItem>
+            <ComboBoxItem Content="1.6"></ComboBoxItem>
+            <ComboBoxItem Content="1.9"></ComboBoxItem>
+            <ComboBoxItem Content="2.2"></ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="silnik_sumuj" Content="PODSUMOWANIE" HorizontalAlignment="Left" Margin="58,302,0,0" VerticalAlignment="Top" FontSize="22" Height="52" Width="212" Click="silnik_sumuj_Click"/>
+        <Label x:Name="lbl_pods_silnik" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Margin="58,354,0,0" FontSize="22"/>
+        <Button x:Name="powrot_silnik" Content="Powrót" HorizontalAlignment="Left" Margin="578,311,0,0" VerticalAlignment="Top" FontSize="22" Width="96" Click="powrot_silnik_Click"/>
+
+    </Grid>
+</Window>
