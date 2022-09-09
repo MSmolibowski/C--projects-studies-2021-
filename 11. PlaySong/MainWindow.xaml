@@ -1,0 +1,26 @@
+﻿<Window x:Class="PlaySong.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlaySong"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="play_btn" Content="Play" HorizontalAlignment="Center" Margin="0,178,0,0" VerticalAlignment="Top" Height="35" Width="84" FontSize="17" Click="play_btn_Click"/>
+        <Button x:Name="stop_btn" Content="Stop" HorizontalAlignment="Center" Margin="0,274,0,0" VerticalAlignment="Top" Height="38" Width="84" FontSize="17" Click="stop_btn_Click"/>
+        <Label x:Name="played_song" Content="Played Song" HorizontalAlignment="Left" Margin="172,353,0,0" VerticalAlignment="Top" Height="42" Width="476" FontSize="17" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.281"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.495"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="open_btn" Content="Open" HorizontalAlignment="Center" Margin="0,78,0,0" VerticalAlignment="Top" FontSize="17" Height="40" Width="84" Click="open_btn_Click"/>
+        <MediaElement Canvas.Left="441" Canvas.Top="395" Height="18" x:Name="LetsPlay" Width="24" Volume="1" LoadedBehavior="Manual" Margin="185,284,591,132" />
+
+    </Grid>
+</Window>
